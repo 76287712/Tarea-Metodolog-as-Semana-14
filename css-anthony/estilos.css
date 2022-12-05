@@ -1,0 +1,158 @@
+body{
+    background-image: url(/img/fondo-login.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 11em;
+}
+
+   form{
+    background-color:white;
+    width: 50%;
+    padding: 1.5em;
+    border: 3px solid red;
+    box-shadow: 30px solid black;
+    text-shadow: 2em solid black;
+
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo{
+    width: 20%;
+    margin-left: 14em;
+    text-align: center;
+
+}
+label{
+    width: 100%;
+    height: 100%;
+}
+input{
+    display: block;
+    width: 100%;
+    margin: 1em 0 1em 0;
+    padding: 1em;
+}
+.contra{
+    text-align: center;
+    color: red;
+    margin-left: 12em;
+
+}
+.texto{
+    border: 2px solid red; 
+}
+
+.texto1 {
+    text-align: center;
+}
+/*barra de navegacion*/
+:root{
+    --color-primario: #ec111a;
+    --color-secundario: #082ba5;
+    --color-sombras: #282d31;
+    --color-titulos: #282d31;
+    --color-text: #53575a;
+    --color-fondo: #fcfcfc;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-fondo);
+}
+
+header{
+    background-color: #FFf;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 3px var(--color-sombras);
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo img{
+    height: 60px;
+}
+
+.menu .btn-menu{
+    display: none;
+    color: var(--color-primario);
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+.menu .enlaces a{
+    color: var(--color-text);
+    display: inline-block;
+    padding: 1.6em;
+    text-align: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.menu .enlaces a:hover{
+    color: var(--color-primario);
+}
+
+.headroom {   
+    transition: transform .3s ease;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+ 
+/*Estilos CSS para movil utilizando responsive web desing */
+
+@media screen and (max-width: 1023px){
+    header .menu{
+        flex-direction: column;
+    }
+
+    header .menu .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header .menu .logo .btn-menu{
+        display: inline;
+        margin-top: .4em;
+    }
+
+    header .menu .enlaces{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
