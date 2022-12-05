@@ -1,0 +1,56 @@
+body{
+    background-image: url(../img/fondo-login.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    background-color: rgb(253, 251, 251);
+    width:50%;
+    padding: 1.5em;
+
+}
+
+.logo { 
+    width: 20%;
+    margin: 6px 10px 5px 20px;
+}
+
+label{
+    width: 100%
+    
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin: 1em 0 1em 0;
+    padding: .4em;
+
+}
+
+.button{
+    background-color: red;
+    color:#fff;
+}
+
+.button:hover{
+    background-color:aqua;
+}
+
+.pass{
+    text-align: center;
+    color: bisque;
+}
+
+container{
+    border-color: blue;
+}
