@@ -147,6 +147,18 @@ nav{
     font-weight: 340;
 }
 
+/* Boton Whatsapp */
+
+.whats {
+    font-size: 4em;
+    margin-top: -4.5em;
+    position: absolute;
+    margin-left: 1em;
+    position: fixed;
+    color: rgb(43, 185, 43);
+}
+
+
 /* Info web */
 
 .titulo-info {
